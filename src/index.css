@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+@layer base {
+  body {
+    @apply bg-black text-white relative font-sans h-screen overflow-x-hidden;
+  }
+}
+
+.protected_by_digits {
+  display: none;
+}
+
+.protected_by_digits_text {
+   display: none;
+}
+
+#digits_protected span {
+     display: none;
+}
