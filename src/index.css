@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-
+/* // custom base style using tailwind Layer */
 @layer base {
   body {
     @apply bg-black text-white relative font-sans h-screen overflow-x-hidden;
@@ -12,9 +12,9 @@
 }
 
 .protected_by_digits_text {
-   display: none;
+  display: none;
 }
 
 #digits_protected span {
-     display: none;
+  display: none;
 }
