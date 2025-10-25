@@ -12,7 +12,9 @@ export const Header = () => {
 
   return (
     <header className="flex justify-between items-center p-4 px-4 lg:px-20">
-      <h1 className="text-3xl md:text-4xl lg:text-5xl font-light m-0">mcode</h1>
+      <h1 className="text-3xl md:text-4xl lg:text-5xl font-light m-0">
+        Elinoor
+      </h1>
 
       {/* Desktop Navigation */}
       <nav className="hidden md:flex items-center gap-12">
